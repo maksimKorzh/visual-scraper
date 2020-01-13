@@ -1,0 +1,11 @@
+{
+  "name": "Visual scraper",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Extract data from URL!",
+  "browser_action": {
+    "default_icon": "/icons/scrape.png",
+    "default_popup": "/src/scrape.html"
+  },
+  "permissions": ["tabs", "<all_urls>"]
+}
